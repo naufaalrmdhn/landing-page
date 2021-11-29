@@ -183,7 +183,7 @@ p:last-child {
 }
 
 .navbar .navbar-brand img {
-    width: 40px;
+    width: 100px;
     height: 100%;
     margin-right: 15px;
 }
@@ -303,8 +303,15 @@ p:last-child {
 /* features */
 
 .title-name img {
-    border-radius: 0%;
-    max-width: 110px;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    -webkit-box-shadow:0 4px 4px rgba(0, 0, 0, 0.3);
+   -moz-box-shadow:0 4px 4px rgba(0, 0, 0, 0.3);
+   box-shadow:0 1px 4px rgba(0, 0, 0, 0.4);
+
+    
     margin-top: 15px;
 }
 

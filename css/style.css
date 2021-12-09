@@ -1,5 +1,17 @@
 /* variable */
+@media (min-width:992px) {
+    .iconn {
+        font-size: 30px;
+        margin-left: 20px;
+        animation-delay: 3s;
+    }
+}
 
+@media (max-width: 991px) {
+    .iconn {
+        display:none !important;
+    }
+}
 
 /* general */
 
